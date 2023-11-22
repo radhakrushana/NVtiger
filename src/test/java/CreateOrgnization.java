@@ -74,13 +74,13 @@ public class CreateOrgnization {
 	 
 	 driver.findElement(By.name("accountname")).sendKeys(Orgname+jutils.getRandamnumber());
 		
-		/*driver.findElement(By.xpath("(//input[@name='assigntype'])[2]")).click();
+		driver.findElement(By.xpath("(//input[@name='assigntype'])[2]")).click();
 		Thread.sleep(2000);
 		WebElement dropdown=driver.findElement(By.name("assigned_group_id"));
 	 
 		wutils.handeldropdown(dropdown, group);
 		
-		driver.findElement(By.xpath("(//input[@name='button'])[1]")).click();		*/
+		driver.findElement(By.xpath("(//input[@name='button'])[1]")).click();		
 		
 		
 		
